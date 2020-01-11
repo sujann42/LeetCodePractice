@@ -4,7 +4,7 @@ public class SortingArray {
 
 	public static void main(String[] args) {
 		int[] myArray = { 100, 5, 10, 12, 4, 8, 1, 3 };
-		System.out.println("Natural Order: ");
+		System.out.println("Given Order: ");
 		printArray(myArray);
 		System.out.println("\nAscending Order: ");
 		sortArray(myArray);
