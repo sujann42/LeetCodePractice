@@ -38,3 +38,10 @@ public class SortingArray {
 	}
 
 }
+
+/*
+ * Natural Order: 
+ * 100 5 10 12 4 8 1 3 
+ * Ascending Order: 
+ * 1 3 4 5 8 10 12 100 
+*/
