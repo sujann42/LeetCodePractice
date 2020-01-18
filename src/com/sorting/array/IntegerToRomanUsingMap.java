@@ -7,7 +7,7 @@ public class IntegerToRomanUsingMap {
 	private static HashMap<Integer, String> mapp = new HashMap<Integer, String>();
 
 	public static void main(String[] args) {
-		int number = 3957;
+		int number = 47;
 		System.out.print("Value in Roman Numeral is: ");
 		System.out.println(intToRoman(number));
 
@@ -16,6 +16,7 @@ public class IntegerToRomanUsingMap {
 	public static String intToRoman(int number) {
 		insertValuesIntoMap();
 		String result = "";
+
 		for (int i : romanss) {
 			while (number >= i) {
 				result += mapp.get(i);
